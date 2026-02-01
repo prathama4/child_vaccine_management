@@ -11,8 +11,8 @@ export default function VaccineCard({
 }: VaccineCardProps) {
   return (
     <div className="bg-white p-5 rounded-xl shadow-md">
-      <h3 className="text-lg font-semibold text-gray-800">{name}</h3>
-      <p className="text-sm text-gray-500 mt-1">Due: {dueDate}</p>
+      <h3 className="text-lg font-semibold">{name}</h3>
+      <p className="text-sm text-gray-500">Due: {dueDate}</p>
 
       <span
         className={`inline-block mt-3 px-3 py-1 rounded-full text-sm font-medium ${
