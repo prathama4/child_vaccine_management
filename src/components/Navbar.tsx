@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Navbar() {
   return (
     <motion.nav
-      initial={{ y: -80, opacity: 0 }}
+      initial={{ y: -70, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
       className="bg-white shadow-md px-6 py-4 flex justify-between items-center"
